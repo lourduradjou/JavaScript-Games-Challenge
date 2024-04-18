@@ -6,15 +6,23 @@
         <link rel="stylesheet" href="styles.css">
 		<title>Rock Paper Scissors</title>
 
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+		</style>
+
 	</head>
 	<body>
 		<div class="container">
 			<h1 class="header">Rock Paper Scissor</h1>
 
 			<div class="header-line"></div>
-			<h2>Computer Choice: <span id="computer-choice"></span></h2>
-			<h2>Your Choice: <span id="user-choice"></span></h2>
-			<h2>Result: <span id="result"></span></h2>
+
+				<h2 class="message">Computer Choice: <span class="displayChoice" id="computer-choice"></span></h2>
+
+				<h2 class="message">Your Choice: <span class="displayChoice" id="user-choice"></span></h2>
+
+				<h2 class="message">Result: <span class="displayChoice" id="result"></span></h2>
+
 
 			<div class="button">
 				<button id="rock">Rock</button>
